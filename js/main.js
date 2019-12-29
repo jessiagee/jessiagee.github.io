@@ -102,7 +102,7 @@
 	------------------------------------------------------ */
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-	var mailChimpURL = 'https://mailchi.mp/98b6f5c1fc82/jessiagee'
+	var mailChimpURL = 'https://jessiagee.us4.list-manage.com/subscribe/post?u=a3889af807b84a8051944c642&amp;id=6675a88d98'
 	
 	$('#mc-form').ajaxChimp({
 
@@ -148,7 +148,7 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "../inc/sendEmail.php",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
